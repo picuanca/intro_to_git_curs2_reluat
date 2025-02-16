@@ -25,8 +25,15 @@ git log --oneline
 git status 
 git status -s
 
-## Comenzi de creare a commitului
+## Comenzi de adaugare a fisierelor in STAGE (inainte de creare a commitului)
 git add file name
 git add .
 git add filename.+
 git add filename1 filename2 filename3
+
+### Comenzi de creare a commitului
+git commit -m " Acesta este un mesaj descrisptiv al commitului "
+git commit --message " Acesta este un mesaj descrisptiv al commitului "
+
+### Comanda de adaugare + commit (!!! fisierele trebuie sa fi fost incluse intr-un commit inainte)
+git commit -am "Acesta este un mesaj descriptiv al commitului"
