@@ -1,0 +1,6 @@
+## initializeaza proiectul de git loc - creaza un folder .git ascuns
+git init
+
+## Descarca de pe server un proiect de git
+git clone https://github.com/username/project
+
