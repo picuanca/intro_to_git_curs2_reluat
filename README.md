@@ -1,0 +1,2 @@
+# intro_to_git_curs2_reluat
+curs2_reluat
